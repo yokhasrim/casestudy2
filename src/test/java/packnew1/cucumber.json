@@ -1,0 +1,179 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-25T10:31:00.337Z",
+        "line": 11,
+        "name": "login process",
+        "description": "",
+        "id": "login;login-process;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12094844800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the url",
+            "match": {
+              "location": "stepdef.url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4127068400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click the signin button",
+            "match": {
+              "location": "stepdef.signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161535900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the Lalitha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalitha",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdef.username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233019000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the password password123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password123",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdef.password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531117200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click login",
+            "match": {
+              "location": "stepdef.login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-25T10:31:17.519Z",
+        "line": 12,
+        "name": "login process",
+        "description": "",
+        "id": "login;login-process;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12084741400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the url",
+            "match": {
+              "location": "stepdef.url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4205324100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click the signin button",
+            "match": {
+              "location": "stepdef.signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387510300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the Nasreen61",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nasreen61",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdef.username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227508400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the password nasreen123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nasreen123",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdef.password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 351394200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click login",
+            "match": {
+              "location": "stepdef.login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:packnew1/featurefile.feature",
+    "tags": []
+  }
+]
